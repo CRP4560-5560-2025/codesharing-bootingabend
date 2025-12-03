@@ -32,9 +32,6 @@ Run the toolbox with the proper inputs
   do the same thing for the json file,
   you very likely want to use the opened arcgis project as the target .gdb,
   join the two files on the NAME attribute,
-  and write the display field as 
-    export_2025_11_29T21_03_00_112Z_csv_ + [target variable]
-  for example, if the target variable is marriedpoppercent, use:
-    export_2025_11_29T21_03_00_112Z_csv_marriedpoppercent
+  use the desired field to symbolize (likely marriedpoppercent),
   and then create a pathway for the png file to be created.)
 
