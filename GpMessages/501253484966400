@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, December 3, 2025 1:55:08 PM</msg><msg code="0" type="0">Converting GeoJSON to Feature Class...</msg><msg code="0" type="0">Creating table from CSV...</msg><msg code="0" type="0">Joining CSV to Feature Class...</msg><msg code="0" type="0">Exporting joined Feature Class...</msg><msg code="0" type="0">Plotting graph using Matplotlib...</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 93, in execute
+RuntimeError: Cannot find field 'Now married (except separated) Population 15 years and over Estimate'
+</msg><msg code="-2147467259" type="100">Failed to execute (CSVGeoJSONJoinPlot).</msg><msg code="0" type="3">Failed at Wednesday, December 3, 2025 1:55:16 PM (Elapsed Time: 8.08 seconds)</msg></messages>
