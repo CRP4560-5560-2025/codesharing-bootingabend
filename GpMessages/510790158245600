@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, December 3, 2025 4:34:04 PM</msg><msg code="0" type="0">Converting GeoJSON to Feature Class...</msg><msg code="0" type="0">Creating table from CSV...</msg><msg code="0" type="0">Joining CSV to Feature Class...</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 101, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 8638, in AddJoin
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 8635, in AddJoin
+    retval = convertArcObjectToPythonObject(gp.AddJoin_management(*gp_fixargs((in_layer_or_view, in_field, join_table, join_field, join_type, index_join_fields, rebuild_index), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000728: Field geojson_features_NAME does not exist within table
+ERROR 000728: Field geojson_features_NAME does not exist within table
+Failed to execute (AddJoin).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (CSVGeoJSONJoinPlot).</msg><msg code="0" type="3">Failed at Wednesday, December 3, 2025 4:34:07 PM (Elapsed Time: 2.84 seconds)</msg></messages>

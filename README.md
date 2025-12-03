@@ -6,7 +6,7 @@ Author name - Naomi Mauss
 
 Date created - 12.03.2025
 
-Purpose of the code
+Purpose of the code -
 
 The purpose of this code is to generate a graph stored as a png which
 displays data from a csv file. 
@@ -17,11 +17,13 @@ However, the output can be changed by modifying the
   .csv for information on a different variable or the
   .json for different spatial information
 
-Data accessed – like name of census tables and such.
+Data accessed –
+
 The marriage data was taken from table S1201 of the ACS,
 and the spatial data was for Story County.
 
-Brief explanation of how to run the code package.
+Brief explanation of how to run the code package.-
+
 To run the package, add the .pyt file as a toolbox to arcgis desktop.
 Ensure the csv and json files are both accessible by arcgis
   (preferably, both files would be on your local computer).
